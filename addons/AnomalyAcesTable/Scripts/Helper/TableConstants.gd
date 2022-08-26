@@ -6,6 +6,12 @@ enum ColumnType {
 	TEXTURE_RECT
 }
 
+enum ColumnFilter {
+	NONE,
+	TEXT,
+	NUMBER
+}
+
 enum Align {
 	LEFT,
 	CENTER,
